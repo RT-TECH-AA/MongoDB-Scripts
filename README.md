@@ -24,22 +24,22 @@ Example:
 mongo kill_slow_operations.js
 ```
 
+## Show all MongoDB parameters.<br>
 **show_parameters.js**<br>
-Show all MongoDB parameters.<br>
 Example: 
 ```
 mongo show_parameters.js
 ```
 
+## Sets verbosity of the logging, specifying an integer between 0 and 5  where 5 is the most verbose.<br>
 **set_parameter_loglevel.js**<br>
-Sets verbosity of the logging, specifying an integer between 0 and 5  where 5 is the most verbose.<br>
 Example: 
 ```
 mongo set_parameter_loglevel.js
 ```
 
+## Server side to do shrink and repair database. <br>
 **repair_database.js** <br>
-Server side to do shrink and repair database. <br>
 Replace to your database and collection names.<br>
 Example: 
 ```
