@@ -46,15 +46,14 @@ Example:
 mongo repair_database.js
 ```
 
+## Show all paramaters and stats from database.<br>
 **show_all_dbstats.js** <br>
-Show all paramaters and stats from database.<br>
 Example: 
 ```
 mongo show_all_dbstats.js > all_stats.log
 ```
-
+## Copies the indexes from one instance to another.<br>
 **index_replicate.js** <br>
-Copies the indexes from one instance to another.<br>
 Set variables: <br>
 
 ```
@@ -69,13 +68,13 @@ Example:
 mongo index_replicate.js
 ```
 
+## Invert hidden/votes/priority members in a replica set
 **invert_hidden_members.js** <br>
-Invert hidden/votes/priority members in a replica set
 <br>
 members DC1: {"hidden" : false, "priority" : 1, "votes" : 1}<br>
 members DC2: {"hidden" : true, "priority" : 0, "votes" : 0}<br>
 Example:
 ```
-mongo --host  mongodbhost:27017 -u user -p #### invert_hidden_members.js
+mongo --host  mongodbhost:27017 -u gedi -p #### invert_hidden_members.js
 ```
 
