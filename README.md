@@ -1,4 +1,4 @@
-# MongoDB Scripts Collection For MongoDB Database Administration
+# Scripts Collection For MongoDB Database Administration
 
 Useful scripts for administrate and operate MongoDB.
 ## Show collections size in MB <br>
