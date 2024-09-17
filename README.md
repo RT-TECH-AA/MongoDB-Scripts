@@ -14,12 +14,11 @@ Example:
 ```
 mongo show_slow_operations.js
 ```
-
+## Finds a random document according to a number of records in a collection.<br>
 **find_random_document.js**<br>
-Finds a random document according to a number of records in a collection.<br>
 
+## Kill all operations running over x seconds.<br>
 **kill_slow_operations.js**<br>
-Kill all operations running over x seconds.<br>
 Example: 
 ```
 mongo kill_slow_operations.js
