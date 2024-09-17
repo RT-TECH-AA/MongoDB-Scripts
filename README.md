@@ -3,7 +3,7 @@
 Useful scripts for administrate and operate MongoDB.
 
 **show_collections_size.js** <br>
-Show collections size in MB <br>
+## Show collections size in MB <br>
 Replace to your database name.<br>
 Example: 
 ```
