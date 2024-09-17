@@ -1,4 +1,4 @@
-# mongodb-scripts
+# MongoDB Scripts Collection For MongoDB Database Administration
 
 Useful scripts for administrate and operate MongoDB.
 
