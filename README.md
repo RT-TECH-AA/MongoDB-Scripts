@@ -1,16 +1,15 @@
 # MongoDB Scripts Collection For MongoDB Database Administration
 
 Useful scripts for administrate and operate MongoDB.
-
-**show_collections_size.js** <br>
 ## Show collections size in MB <br>
+**show_collections_size.js** <br>
 Replace to your database name.<br>
 Example: 
 ```
 mongo get_collections_size.js
 ```
+## Show operations running over x seconds.<br>
 **show_slow_operations.js** <br>
-Show operations running over x seconds.<br>
 Example: 
 ```
 mongo show_slow_operations.js
